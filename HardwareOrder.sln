@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareOrder.Dataaccess", "HardwareOrder.Dataaccess\HardwareOrder.Dataaccess.csproj", "{B3C54286-7FCA-4674-BE6C-3D0A5FD6FE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareOrder", "HardwareOrder\HardwareOrder.csproj", "{550BFB95-3303-4EFE-8473-8C7177605F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareOrder.Interfaces", "HardwareOrder.Interfaces\HardwareOrder.Interfaces.csproj", "{EAB68D43-7B91-4102-8C80-14328EE4956F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareOrder.Models", "HardwareOrder.Models\HardwareOrder.Models.csproj", "{E7F64586-EBCB-48C0-B62C-A870F6DCDD20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareOrder.DataAccess.Tests", "Hardware.DataAccess.Tests\HardwareOrder.DataAccess.Tests.csproj", "{13844735-94DA-41D9-B898-10980E3C1996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3C54286-7FCA-4674-BE6C-3D0A5FD6FE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C54286-7FCA-4674-BE6C-3D0A5FD6FE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C54286-7FCA-4674-BE6C-3D0A5FD6FE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C54286-7FCA-4674-BE6C-3D0A5FD6FE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550BFB95-3303-4EFE-8473-8C7177605F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550BFB95-3303-4EFE-8473-8C7177605F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550BFB95-3303-4EFE-8473-8C7177605F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550BFB95-3303-4EFE-8473-8C7177605F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB68D43-7B91-4102-8C80-14328EE4956F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB68D43-7B91-4102-8C80-14328EE4956F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB68D43-7B91-4102-8C80-14328EE4956F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB68D43-7B91-4102-8C80-14328EE4956F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F64586-EBCB-48C0-B62C-A870F6DCDD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F64586-EBCB-48C0-B62C-A870F6DCDD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F64586-EBCB-48C0-B62C-A870F6DCDD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F64586-EBCB-48C0-B62C-A870F6DCDD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13844735-94DA-41D9-B898-10980E3C1996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13844735-94DA-41D9-B898-10980E3C1996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13844735-94DA-41D9-B898-10980E3C1996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13844735-94DA-41D9-B898-10980E3C1996}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91B427DD-F645-4D67-8FF9-631A27E0B2DD}
+	EndGlobalSection
+EndGlobal
